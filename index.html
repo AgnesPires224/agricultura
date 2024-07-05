@@ -13,7 +13,7 @@
             padding: 0;
         }
         header {
-            background-color: #b256be;
+            background-color: #57ad34;
             color: white;
             text-align: center;
             padding: 1rem;
@@ -98,7 +98,7 @@
             <li>Uso Eficiente de Fertilizantes</li>
             <li>Irrigação Sustentável</li>
         </ul>
-        <img class="feature-image" src="https://via.placeholder.com/800x400?text=Imagem+de+Técnicas" alt="Imagem representativa sobre técnicas agrícolas">
+        <img class="feature-image" src="https://imagens-cdn.canalrural.com.br/2019/01/lavoura-brasil-1024x768.jpg" alt="Imagem representativa sobre técnicas agrícolas">
     </section>
     <section id="recursos">
         <h2>Recursos</h2>
@@ -107,18 +107,133 @@
             <li><a href="#">Guia: Como Começar uma Horta em Casa</a></li>
             <li><a href="#">Calendário de Feiras Agrícolas</a></li>
             <li><a href="#">Links para Organizações Agrícolas</a></li>
-        </ul>
-        <img class="feature-image" src="https://via.placeholder.com/800x400?text=Imagem+de+Recursos" alt="Imagem representativa sobre recursos agrícolas">
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Tem alguma dúvida ou sugestão? Entre em contato conosco!</p>
-        <form>
-            <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="4"></textarea><br>
-            <input type="submit" value="Enviar">
+        </ul
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
         
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        #intro {
+            background-color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        
+        #intro h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+        
+        #intro p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        #beneficios {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+        
+        #beneficios h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .beneficio {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .beneficio img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .beneficio h3 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+            color: #4CAF50;
+        }
+        
+        .beneficio p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importância do Campo na Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Importância do Campo na Cidade</h1>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h2>O Equilíbrio entre Campo e Cidade</h2>
+            <p>A harmonia entre o campo e a cidade é essencial para o bem-estar das comunidades urbanas. Descubra como a conexão com o ambiente rural pode transformar a qualidade de vida nas cidades.</p>
+            <img class="feature-image" src="https://www.justicaeleitoral.jus.br/imagens/fotos/no-aniversario-de-curitiba-saiba-a-historia-da-cidade-com-a-justica-eleitoral/@@streaming/image/Prancheta%201%20(1).jpg" alt="Imagem representativa sobre técnicas agrícolas">
+        </div>
+    </section>
+
+    <section id="beneficios">
+        <div class="container">
+            <h2>Benefícios da Integração</h2>
+            <div class="beneficio">
+                <img src="campo.jpg" alt="Campo">
+                <h3>Paisagem Verde</h3>
+                <p>A presença de áreas verdes proporciona beleza cênica e melhora a qualidade do ar nas áreas urbanas.</p>
+            </div>
+            <div class="beneficio">
+                <img src="alimentos.jpg" alt="Alimentos">
+                <h3>Abastecimento Alimentar</h3>
+                <p>Agricultura local pode fornecer alimentos frescos e saudáveis para os habitantes das cidades.</p>
+            </div>
+            <div class="beneficio">
+                <img src="lazer.jpg" alt="Lazer">
+                <h3>Recreação e Lazer</h3>
+                <p>Parques e áreas naturais oferecem espaços para atividades ao ar livre e recreação para os moradores urbanos.</p>
+            </div>
+        </div>
+    </section>
+        </div>
+    </footer>
+</body>
+</html>
